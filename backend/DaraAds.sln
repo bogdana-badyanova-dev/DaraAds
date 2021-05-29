@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaraAds.API", "DaraAds.API\DaraAds.API.csproj", "{45E12AAF-76B6-4494-8097-CAE701004926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaraAds.Domain", "DaraAds.Domain\DaraAds.Domain.csproj", "{7BEE163D-C577-47C3-AF7F-703510108CAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaraAds.Infrastructure", "DaraAds.Infrastructure\DaraAds.Infrastructure.csproj", "{BFC47D91-4325-40DC-9BAC-DF2D34757DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaraAds.Application", "DaraAds.Application\DaraAds.Application.csproj", "{52C2DA17-AEED-4C62-81EA-FCA56B5AC49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B2DFD7B-D99C-49B1-93D5-0DE7C3704E3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaraAds.Application.Tests", "tests\DaraAds.Application.Tests\DaraAds.Application.Tests.csproj", "{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E12AAF-76B6-4494-8097-CAE701004926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E12AAF-76B6-4494-8097-CAE701004926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E12AAF-76B6-4494-8097-CAE701004926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E12AAF-76B6-4494-8097-CAE701004926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEE163D-C577-47C3-AF7F-703510108CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEE163D-C577-47C3-AF7F-703510108CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEE163D-C577-47C3-AF7F-703510108CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEE163D-C577-47C3-AF7F-703510108CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC47D91-4325-40DC-9BAC-DF2D34757DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC47D91-4325-40DC-9BAC-DF2D34757DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC47D91-4325-40DC-9BAC-DF2D34757DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC47D91-4325-40DC-9BAC-DF2D34757DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C2DA17-AEED-4C62-81EA-FCA56B5AC49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C2DA17-AEED-4C62-81EA-FCA56B5AC49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C2DA17-AEED-4C62-81EA-FCA56B5AC49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C2DA17-AEED-4C62-81EA-FCA56B5AC49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65D861AB-7EE1-44EC-8235-BDAF1B4CA6E1} = {4B2DFD7B-D99C-49B1-93D5-0DE7C3704E3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02419F46-0ECC-4D6F-92D8-C12CAE781F0D}
+	EndGlobalSection
+EndGlobal

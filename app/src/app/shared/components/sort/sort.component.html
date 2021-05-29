@@ -1,0 +1,9 @@
+<select [(ngModel)]="selectedValue" (ngModelChange)="onSort($event)">
+  <option disabled selected value="undefined">Сортировать по</option>
+  <option
+    *ngFor="let sortItems of sotringElements"
+    [ngValue]="sortItems.orderBy"
+  >
+    {{ sortItems.title }}
+  </option>
+</select>
